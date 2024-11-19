@@ -29,7 +29,6 @@ jobs:
           server: ${{ secrets. ftp.mhdeliveries.com }}
           username: ${{ secrets.onboarding@onboarding.mhdeliveries.com }}
           password: ${{ secrets.Onboarding@github123$# }}
-          server-dir: /public_html/
           exclude: |
             **/.git**
             **/.git*/**
