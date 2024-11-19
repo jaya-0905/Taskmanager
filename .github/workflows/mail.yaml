@@ -26,9 +26,9 @@ jobs:
       - name: Upload to cPanel 📂
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.ftp_mhdeliveries_com }}
-          username: ${{ secrets.onboarding_email_mhdeliveries_com }}
-          password: ${{ secrets.onboarding_password }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.ONBOARDING_EMAIL }}
+          password: ${{ secrets.ONBOARDING_PASSWORD }}
           exclude: |
             **/.git**
             **/.git*/**
