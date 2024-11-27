@@ -1,4 +1,5 @@
 {
+  "homepage": " https://jaya-0905.github.io/Taskmanager/",
   "name": "taskmanager",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build"
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
